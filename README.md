@@ -12,10 +12,7 @@ The app performs benchmark tests on various locking patterns:
 - pthread_mutex_t
 
 The app displays the results in the console.
-The numbers below reflect the averaged results of several test runs executed on an iPhone 5s device
-----------------------------------------------------------------------
-Locks/unlock 100x per test
-----------------------------------------------------------------------
+The numbers below reflect the averaged results of several test runs executed on an iPhone 5s device. Note that each benchmark test performed 100 lock/unlock cycles.
 1. 69 ns -> dispatch_sync 
 2. 202 ns -> pthread_mutex_t
 3. 262 ns -> NSLock
