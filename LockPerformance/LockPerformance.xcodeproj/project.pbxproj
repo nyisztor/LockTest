@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26D51AF119333DD200C7B286 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26D51AF019333DD200C7B286 /* Foundation.framework */; };
+		26D51AF319333DD200C7B286 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26D51AF219333DD200C7B286 /* CoreGraphics.framework */; };
+		26D51AF519333DD200C7B286 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26D51AF419333DD200C7B286 /* UIKit.framework */; };
+		26D51AFB19333DD200C7B286 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 26D51AF919333DD200C7B286 /* InfoPlist.strings */; };
+		26D51AFD19333DD200C7B286 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D51AFC19333DD200C7B286 /* main.m */; };
+		26D51B0119333DD200C7B286 /* NYKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D51B0019333DD200C7B286 /* NYKAppDelegate.m */; };
+		26D51B0319333DD200C7B286 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26D51B0219333DD200C7B286 /* Images.xcassets */; };
+		26D51B0A19333DD200C7B286 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26D51B0919333DD200C7B286 /* XCTest.framework */; };
+		26D51B0B19333DD200C7B286 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26D51AF019333DD200C7B286 /* Foundation.framework */; };
+		26D51B0C19333DD200C7B286 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26D51AF419333DD200C7B286 /* UIKit.framework */; };
+		26D51B1419333DD200C7B286 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 26D51B1219333DD200C7B286 /* InfoPlist.strings */; };
+		26D51B1619333DD200C7B286 /* LockPerformanceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D51B1519333DD200C7B286 /* LockPerformanceTests.m */; };
+		26D51B2119333E0900C7B286 /* NYKLockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D51B2019333E0900C7B286 /* NYKLockTest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26D51B0D19333DD200C7B286 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26D51AE519333DD100C7B286 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26D51AEC19333DD200C7B286;
+			remoteInfo = LockPerformance;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26D51AED19333DD200C7B286 /* LockPerformance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LockPerformance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26D51AF019333DD200C7B286 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		26D51AF219333DD200C7B286 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		26D51AF419333DD200C7B286 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		26D51AF819333DD200C7B286 /* LockPerformance-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LockPerformance-Info.plist"; sourceTree = "<group>"; };
+		26D51AFA19333DD200C7B286 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		26D51AFC19333DD200C7B286 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		26D51AFE19333DD200C7B286 /* LockPerformance-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LockPerformance-Prefix.pch"; sourceTree = "<group>"; };
+		26D51AFF19333DD200C7B286 /* NYKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NYKAppDelegate.h; sourceTree = "<group>"; };
+		26D51B0019333DD200C7B286 /* NYKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYKAppDelegate.m; sourceTree = "<group>"; };
+		26D51B0219333DD200C7B286 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		26D51B0819333DD200C7B286 /* LockPerformanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LockPerformanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26D51B0919333DD200C7B286 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		26D51B1119333DD200C7B286 /* LockPerformanceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LockPerformanceTests-Info.plist"; sourceTree = "<group>"; };
+		26D51B1319333DD200C7B286 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		26D51B1519333DD200C7B286 /* LockPerformanceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LockPerformanceTests.m; sourceTree = "<group>"; };
+		26D51B1F19333E0900C7B286 /* NYKLockTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYKLockTest.h; sourceTree = "<group>"; };
+		26D51B2019333E0900C7B286 /* NYKLockTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYKLockTest.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26D51AEA19333DD200C7B286 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26D51AF319333DD200C7B286 /* CoreGraphics.framework in Frameworks */,
+				26D51AF519333DD200C7B286 /* UIKit.framework in Frameworks */,
+				26D51AF119333DD200C7B286 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26D51B0519333DD200C7B286 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26D51B0A19333DD200C7B286 /* XCTest.framework in Frameworks */,
+				26D51B0C19333DD200C7B286 /* UIKit.framework in Frameworks */,
+				26D51B0B19333DD200C7B286 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26D51AE419333DD100C7B286 = {
+			isa = PBXGroup;
+			children = (
+				26D51AF619333DD200C7B286 /* LockPerformance */,
+				26D51B0F19333DD200C7B286 /* LockPerformanceTests */,
+				26D51AEF19333DD200C7B286 /* Frameworks */,
+				26D51AEE19333DD200C7B286 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26D51AEE19333DD200C7B286 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26D51AED19333DD200C7B286 /* LockPerformance.app */,
+				26D51B0819333DD200C7B286 /* LockPerformanceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26D51AEF19333DD200C7B286 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26D51AF019333DD200C7B286 /* Foundation.framework */,
+				26D51AF219333DD200C7B286 /* CoreGraphics.framework */,
+				26D51AF419333DD200C7B286 /* UIKit.framework */,
+				26D51B0919333DD200C7B286 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		26D51AF619333DD200C7B286 /* LockPerformance */ = {
+			isa = PBXGroup;
+			children = (
+				26D51AFF19333DD200C7B286 /* NYKAppDelegate.h */,
+				26D51B0019333DD200C7B286 /* NYKAppDelegate.m */,
+				26D51B0219333DD200C7B286 /* Images.xcassets */,
+				26D51AF719333DD200C7B286 /* Supporting Files */,
+				26D51B1F19333E0900C7B286 /* NYKLockTest.h */,
+				26D51B2019333E0900C7B286 /* NYKLockTest.m */,
+			);
+			path = LockPerformance;
+			sourceTree = "<group>";
+		};
+		26D51AF719333DD200C7B286 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26D51AF819333DD200C7B286 /* LockPerformance-Info.plist */,
+				26D51AF919333DD200C7B286 /* InfoPlist.strings */,
+				26D51AFC19333DD200C7B286 /* main.m */,
+				26D51AFE19333DD200C7B286 /* LockPerformance-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		26D51B0F19333DD200C7B286 /* LockPerformanceTests */ = {
+			isa = PBXGroup;
+			children = (
+				26D51B1519333DD200C7B286 /* LockPerformanceTests.m */,
+				26D51B1019333DD200C7B286 /* Supporting Files */,
+			);
+			path = LockPerformanceTests;
+			sourceTree = "<group>";
+		};
+		26D51B1019333DD200C7B286 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26D51B1119333DD200C7B286 /* LockPerformanceTests-Info.plist */,
+				26D51B1219333DD200C7B286 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26D51AEC19333DD200C7B286 /* LockPerformance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26D51B1919333DD200C7B286 /* Build configuration list for PBXNativeTarget "LockPerformance" */;
+			buildPhases = (
+				26D51AE919333DD200C7B286 /* Sources */,
+				26D51AEA19333DD200C7B286 /* Frameworks */,
+				26D51AEB19333DD200C7B286 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LockPerformance;
+			productName = LockPerformance;
+			productReference = 26D51AED19333DD200C7B286 /* LockPerformance.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26D51B0719333DD200C7B286 /* LockPerformanceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26D51B1C19333DD200C7B286 /* Build configuration list for PBXNativeTarget "LockPerformanceTests" */;
+			buildPhases = (
+				26D51B0419333DD200C7B286 /* Sources */,
+				26D51B0519333DD200C7B286 /* Frameworks */,
+				26D51B0619333DD200C7B286 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26D51B0E19333DD200C7B286 /* PBXTargetDependency */,
+			);
+			name = LockPerformanceTests;
+			productName = LockPerformanceTests;
+			productReference = 26D51B0819333DD200C7B286 /* LockPerformanceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26D51AE519333DD100C7B286 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NYK;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = NyK;
+				TargetAttributes = {
+					26D51B0719333DD200C7B286 = {
+						TestTargetID = 26D51AEC19333DD200C7B286;
+					};
+				};
+			};
+			buildConfigurationList = 26D51AE819333DD100C7B286 /* Build configuration list for PBXProject "LockPerformance" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 26D51AE419333DD100C7B286;
+			productRefGroup = 26D51AEE19333DD200C7B286 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26D51AEC19333DD200C7B286 /* LockPerformance */,
+				26D51B0719333DD200C7B286 /* LockPerformanceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26D51AEB19333DD200C7B286 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26D51AFB19333DD200C7B286 /* InfoPlist.strings in Resources */,
+				26D51B0319333DD200C7B286 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26D51B0619333DD200C7B286 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26D51B1419333DD200C7B286 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26D51AE919333DD200C7B286 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26D51AFD19333DD200C7B286 /* main.m in Sources */,
+				26D51B2119333E0900C7B286 /* NYKLockTest.m in Sources */,
+				26D51B0119333DD200C7B286 /* NYKAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26D51B0419333DD200C7B286 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26D51B1619333DD200C7B286 /* LockPerformanceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26D51B0E19333DD200C7B286 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26D51AEC19333DD200C7B286 /* LockPerformance */;
+			targetProxy = 26D51B0D19333DD200C7B286 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26D51AF919333DD200C7B286 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26D51AFA19333DD200C7B286 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		26D51B1219333DD200C7B286 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26D51B1319333DD200C7B286 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26D51B1719333DD200C7B286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		26D51B1819333DD200C7B286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26D51B1A19333DD200C7B286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LockPerformance/LockPerformance-Prefix.pch";
+				INFOPLIST_FILE = "LockPerformance/LockPerformance-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		26D51B1B19333DD200C7B286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LockPerformance/LockPerformance-Prefix.pch";
+				INFOPLIST_FILE = "LockPerformance/LockPerformance-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		26D51B1D19333DD200C7B286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LockPerformance.app/LockPerformance";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LockPerformance/LockPerformance-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LockPerformanceTests/LockPerformanceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		26D51B1E19333DD200C7B286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LockPerformance.app/LockPerformance";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LockPerformance/LockPerformance-Prefix.pch";
+				INFOPLIST_FILE = "LockPerformanceTests/LockPerformanceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26D51AE819333DD100C7B286 /* Build configuration list for PBXProject "LockPerformance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26D51B1719333DD200C7B286 /* Debug */,
+				26D51B1819333DD200C7B286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26D51B1919333DD200C7B286 /* Build configuration list for PBXNativeTarget "LockPerformance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26D51B1A19333DD200C7B286 /* Debug */,
+				26D51B1B19333DD200C7B286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		26D51B1C19333DD200C7B286 /* Build configuration list for PBXNativeTarget "LockPerformanceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26D51B1D19333DD200C7B286 /* Debug */,
+				26D51B1E19333DD200C7B286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26D51AE519333DD100C7B286 /* Project object */;
+}
