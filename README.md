@@ -15,11 +15,11 @@ The app displays the results in the console.
 The numbers below reflect the averaged results of several test runs executed on an iPhone 5s device. Note that each benchmark test performed 100 lock/unlock cycles.
 
 The results:
-1. 69 ns with dispatch_sync 
-2. 202 ns with pthread_mutex_t
-3. 262 ns with NSLock
-4. 263 ns with NSRecursiveLock
-5. 520 ns with @synchronized keyword
+1. 69 ns -> dispatch_sync 
+2. 202 ns -> pthread_mutex_t
+3. 262 ns -> NSLock
+4. 263 ns -> NSRecursiveLock
+5. 520 ns -> @synchronized keyword
 
 It turns out that @synchronized is the slowest, whilst dispatch_sync is blazingly fast. NSLock and NSRecursiveLock show no comparable difference, whilst pthread_mutex_t came in the second.
 
