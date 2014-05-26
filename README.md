@@ -2,7 +2,7 @@ LockTest
 ========
 
 Cocoa offers us several ways to implement locking strategies.
-Performance is one of the aspects that should be also considered before chosing one way or teh other.
+Performance is one of the aspects that should be also considered before chosing one way or the other.
 
 The app performs benchmark tests on various locking patterns:
 - @synchronized keyword
