@@ -24,4 +24,6 @@ It turns out that @synchronized is the slowest, whilst dispatch_sync is blazingl
 
 Measurements are performed using dispatch_benchmark, which is an easy to use, block-based API. 
 Unfortunately it is not public (although documented), so *do not use dispatch_benchmark in productive code*.
-See also: http://nshipster.com/benchmarking/
+Useful links: 
+- http://nshipster.com/benchmarking/
+- http://perpendiculo.us/2009/09/synchronized-nslock-pthread-osspinlock-showdown-done-right/
