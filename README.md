@@ -24,7 +24,7 @@ The results
 
 It turns out that @synchronized is the slowest, whilst dispatch_sync is blazingly fast. NSLock and NSRecursiveLock show no comparable difference, whilst pthread_mutex_t came in the second.
 
-![stats](https://github.com/Carlos001/LockTest/blob/master/lockPerformance.png)
+![stats](https://raw.githubusercontent.com/Carlos001/LockTest/master/lockPerformance.png)
 
 Measurements are performed using dispatch_benchmark, which is an easy to use, block-based API. 
 Unfortunately it is not public (although documented), so *do not use dispatch_benchmark in productive code*.
